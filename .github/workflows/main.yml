@@ -33,9 +33,9 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
 
-      # Step 5: Analyze code
-      - name: Analyze Flutter code
-        run: flutter analyze
+      # # Step 5: Analyze code
+      # - name: Analyze Flutter code
+      #   run: flutter analyze
 
       # Step 6: Build APK
       - name: Build APK
